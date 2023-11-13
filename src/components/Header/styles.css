@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+}
+
+header a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    transition: all 0.4s;
+    color: #ba0000;
+}
+.logo span{
+    color:#fff;
+}
+.logo:hover{
+    color:#fff;
+    transform: scale(1.1);
+}
+.logo:hover span{
+    color: #ba0000;
+}
+
+.favorites{
+    color:#000;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 14px;
+    transition: all 0.4s;
+}
+
+.favorites:hover{
+    transform: scale(1.1);
+}
